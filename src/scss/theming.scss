@@ -1,0 +1,139 @@
+.spacer-x {
+    padding-top: .5vw !important;
+    padding-bottom: .5vw !important;
+    padding-left: 12vw !important;
+    padding-right: 12vw !important;
+    // display: flex;
+    // justify-content: center;
+}
+
+@media only screen and (min-width: 400px) {
+    .spacer-x {
+        padding-top: .5vw !important;
+        padding-bottom: .5vw !important;
+        padding-left: 12vw !important;
+        padding-right: 12vw !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .spacer-x {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+.max-w {
+    max-width: 1200px;
+}
+
+.min-w {
+    min-width: 1200px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.w-100vw {
+    width: 100vw;
+}
+
+.carousal-img {
+    max-width: 50vw;
+    max-height: 25vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .carousal-img {
+        max-width: 83vw;
+        max-height: 50vw;
+    }
+}
+
+
+.bg-img {
+    justify-content: center;
+    // background-image: url("../assets/images/cleaning/bg-clean-img.jpg");
+    // background-image: url("../assets/images/bg-2.jpg");
+    // background-image: url("https://images.pexels.com/photos/1024248/pexels-photo-1024248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    opacity: 1;
+    padding-bottom: 20rem;
+    // max-width: 2380px;    
+}
+
+
+.bg-img-1 {
+    justify-content: center;
+    // background-image: url("../assets/images//cleaning/services/cleaning1.jpg");
+    background-size: cover;
+}
+
+.bg-opacity {
+    // z-index: -2;
+    background: rgba(255, 255, 255, 80%);
+}
+
+
+body {
+    // overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+// ::-webkit-scrollbar {
+//     width: 10px;    
+//   }
+
+//   /* Track */
+//   ::-webkit-scrollbar-track {
+//     background: #f1f1f1; 
+//   }
+
+//   /* Handle */
+//   ::-webkit-scrollbar-thumb {
+//     background: #888; 
+//   }
+
+//   /* Handle on hover */
+//   ::-webkit-scrollbar-thumb:hover {
+//     background: #555; 
+//   }
+
+// Hide Scrollbar
+
+// *::-webkit-scrollbar {
+//     display: none;
+// }
+
+// /* Hide scrollbar for IE, Edge and Firefox */
+// * {
+//     -ms-overflow-style: none;
+//     /* IE and Edge */
+//     scrollbar-width: none;
+//     /* Firefox */
+// }
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.ceo-image {
+    display: flex;
+    height: 80%;
+    object-fit: cover;
+    width: 70%;
+    justify-content: center;
+    align-self: center;
+}
+
+.webkitSize {
+    width: -webkit-fill-available;
+}

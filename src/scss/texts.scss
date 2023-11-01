@@ -1,0 +1,122 @@
+@import '../scss/variables.scss';
+
+.text-grad {
+    font-size: 1rem;
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-grad-1 {
+    font-size: 1rem;
+    background: $bg-grad-1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-grad-2 {
+    font-size: 1rem;
+    background: $bg-grad-2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.active {
+    // font-size: 1rem;
+    width: fit-content;
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hover-grad:hover {
+    // font-size: 1rem;
+    width: fit-content;
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.deco-none {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+
+
+.landing-text {
+    color: $primary-color;
+    font-size: 52px;
+    // 44px
+    line-height: 65px;
+    letter-spacing: -2px;
+    font-family: "Circular Std", sans-serif;
+    font-weight: 700;
+}
+
+.landing-sub-text {
+    color: $primary-color;
+    font-size: 19px;
+    line-height: 35px;
+    font-family: "Circular Std", sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    .landing-text {
+        font-size: 44px;
+        line-height: 3.2rem;
+    }
+
+    .landing-sub-text {
+        font-size: 17px;
+        line-height: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .landing-text {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .landing-sub-text {
+        font-size: 17px;
+        line-height: 1.6rem;
+    }
+}
+
+.title-text {
+    // padding-right: 19vw;
+    // padding-left: 19vw;
+    color: #161C2D;
+    font-family: "Circular Std", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+@media only screen and (max-width: 1222px) {
+    .title-text {
+        padding-right: 15vw;
+        padding-left: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .title-text {
+        padding-right: 11vw;
+        padding-left: 11vw;
+    }
+}
+
+.contact-form-text
+{    
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
